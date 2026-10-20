@@ -9,5 +9,9 @@ print("Look around or leave? 1/2")
 q1 = str(input("-> "))
 if q1 == "1" or "1" in q1:
   q2 = input("You see a goober in the street, tweaking out. Walk up to him and say hi or grab the double barrel shotgun in his hands and blast his head off for fun (1/2)" /n "-->")
+  if q2 == "1" or "1" in q2:
+    print("Placeholder")
+  elif q2 == "2" or "2" in q2:
+    print("loser.")
 elif q1 == "2" or "2" in q1:
   print("loser.")
